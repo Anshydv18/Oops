@@ -6,6 +6,7 @@ class books{
     static int prices;
 
     static int getvalue(){
+        //we can access only static varibles under the static funnction
         return prices;
     }
 };
